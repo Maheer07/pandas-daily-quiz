@@ -9,6 +9,15 @@ You are running as a scheduled weekday task. Your job: generate today's 5-questi
 - Read the 3 most recent files in `questions/` (by filename/date — they're named `YYYY-MM-DD.md`), if any exist. If `questions/` is empty, this is Day 1 — start at roadmap topic 1.
 - Determine today's date (UTC date is fine) and figure out `day_number` (`Progress.day_number + 1`) and which roadmap topic(s) today covers, per the rules written at the top of `curriculum.md`.
 
+## 1b. Check for open feedback
+
+- Read `feedback.md` at the repo root (create it with a `## Entries` section if it's somehow missing) for entries with `Status: open`.
+- For each open entry, spend **2 of today's 5 questions** reinforcing that entry's topic -- same underlying concept the user struggled with, but a different code example/scenario than the original question, not a verbatim repeat. If there are multiple open entries, split reinforcement across them (e.g. 1 question each for 2 open entries) rather than always piling on one topic.
+- Mark each reinforcement question in the archive file (not the email) with a trailing tag like `(reinforcement: <topic>)` so it's identifiable later.
+- The remaining questions still follow the normal curriculum progression from step 2 below.
+- After archiving today's file (step 4), edit `feedback.md` and change that entry's `Status: open` to `Status: reinforced on <YYYY-MM-DD>` so it isn't repeated indefinitely. If the user gives fresh feedback on the reinforcement question itself later, a new entry will be added separately and the cycle repeats for that new entry.
+- If there are no open entries, skip this step entirely and proceed normally -- don't force reinforcement questions when none are needed.
+
 ## 2. Write 5 questions
 
 Format per question, multiple choice, 4 options (A-D), exactly one correct:
