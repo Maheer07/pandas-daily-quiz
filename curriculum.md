@@ -12,14 +12,16 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 0
-- `last_topic_index`: -1
-- `last_sent_date`: (none yet)
-- `last_topic`: (none yet)
+- `day_number`: 1
+- `last_topic_index`: 0
+- `last_sent_date`: 2026-09-07
+- `last_topic`: NumPy array creation & dtypes (Roadmap #1)
 
 ## Log
 
 (newest entries at the bottom; one line per day, e.g. `Day 1 — 2026-09-08 — NumPy array creation & dtypes`)
+
+Day 1 — 2026-09-07 — NumPy array creation & dtypes
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
