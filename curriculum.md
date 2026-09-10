@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 3
-- `last_topic_index`: 2
-- `last_sent_date`: 2026-09-09
-- `last_topic`: NumPy vectorized ops & broadcasting (Roadmap #3)
+- `day_number`: 4
+- `last_topic_index`: 3
+- `last_sent_date`: 2026-09-10
+- `last_topic`: NumPy aggregations — sum, mean, min/max, axis= (Roadmap #4)
 
 ## Log
 
@@ -24,6 +24,7 @@ This file is the source of truth for "where we are" in the course. The daily age
 Day 1 — 2026-09-07 — NumPy array creation & dtypes
 Day 2 — 2026-09-08 — NumPy indexing & slicing (+ 2 reinforcement Qs on array dtype truncation)
 Day 3 — 2026-09-09 — NumPy vectorized ops & broadcasting
+Day 4 — 2026-09-10 — NumPy aggregations (sum, mean, min/max, axis=)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
