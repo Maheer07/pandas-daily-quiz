@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 5
-- `last_topic_index`: 3
-- `last_sent_date`: 2026-09-11
-- `last_topic`: Review day — combining NumPy array creation/dtypes, indexing/slicing, broadcasting, aggregations (Roadmap #1-4)
+- `day_number`: 6
+- `last_topic_index`: 4
+- `last_sent_date`: 2026-09-14
+- `last_topic`: NumPy boolean masking & np.where (Roadmap #5)
 
 ## Log
 
@@ -26,6 +26,7 @@ Day 2 — 2026-09-08 — NumPy indexing & slicing (+ 2 reinforcement Qs on array
 Day 3 — 2026-09-09 — NumPy vectorized ops & broadcasting
 Day 4 — 2026-09-10 — NumPy aggregations (sum, mean, min/max, axis=)
 Day 5 — 2026-09-11 — Review day (combining Roadmap #1-4: dtypes, indexing, broadcasting, aggregations)
+Day 6 — 2026-09-14 — NumPy boolean masking & np.where
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
