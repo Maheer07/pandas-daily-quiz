@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 8
-- `last_topic_index`: 6
-- `last_sent_date`: 2026-09-16
-- `last_topic`: Pandas DataFrame: creation from dict/list/np.array (Roadmap #7)
+- `day_number`: 9
+- `last_topic_index`: 7
+- `last_sent_date`: 2026-09-17
+- `last_topic`: Selection with .loc vs .iloc (Roadmap #8)
 
 ## Log
 
@@ -29,6 +29,7 @@ Day 5 — 2026-09-11 — Review day (combining Roadmap #1-4: dtypes, indexing, b
 Day 6 — 2026-09-14 — NumPy boolean masking & np.where
 Day 7 — 2026-09-15 — Pandas Series: creation, index, basic ops
 Day 8 — 2026-09-16 — Pandas DataFrame: creation from dict/list/np.array
+Day 9 — 2026-09-17 — Selection with .loc vs .iloc
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
