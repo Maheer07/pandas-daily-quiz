@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 11
-- `last_topic_index`: 8
-- `last_sent_date`: 2026-09-21
-- `last_topic`: Boolean filtering on a DataFrame, incl. combining conditions with `&`/`|` (Roadmap #9)
+- `day_number`: 12
+- `last_topic_index`: 9
+- `last_sent_date`: 2026-09-22
+- `last_topic`: Adding/dropping columns & rows (`assign`, `drop`, `insert`) (Roadmap #10)
 
 ## Log
 
@@ -32,6 +32,7 @@ Day 8 — 2026-09-16 — Pandas DataFrame: creation from dict/list/np.array
 Day 9 — 2026-09-17 — Selection with .loc vs .iloc
 Day 10 — 2026-09-18 — Review day (combining Roadmap #5-8: boolean masking/np.where, Series, DataFrame creation, .loc vs .iloc)
 Day 11 — 2026-09-21 — Boolean filtering on a DataFrame (combining conditions with &/|)
+Day 12 — 2026-09-22 — Adding/dropping columns & rows (assign, drop, insert)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
