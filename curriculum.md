@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 12
-- `last_topic_index`: 9
-- `last_sent_date`: 2026-09-22
-- `last_topic`: Adding/dropping columns & rows (`assign`, `drop`, `insert`) (Roadmap #10)
+- `day_number`: 13
+- `last_topic_index`: 10
+- `last_sent_date`: 2026-09-23
+- `last_topic`: Handling missing data (`isna`, `fillna`, `dropna`) (Roadmap #11)
 
 ## Log
 
@@ -33,6 +33,7 @@ Day 9 — 2026-09-17 — Selection with .loc vs .iloc
 Day 10 — 2026-09-18 — Review day (combining Roadmap #5-8: boolean masking/np.where, Series, DataFrame creation, .loc vs .iloc)
 Day 11 — 2026-09-21 — Boolean filtering on a DataFrame (combining conditions with &/|)
 Day 12 — 2026-09-22 — Adding/dropping columns & rows (assign, drop, insert)
+Day 13 — 2026-09-23 — Handling missing data (isna, fillna, dropna)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
