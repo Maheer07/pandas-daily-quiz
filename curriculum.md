@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 14
+- `day_number`: 15
 - `last_topic_index`: 11
-- `last_sent_date`: 2026-09-24
-- `last_topic`: Sorting & ranking (`sort_values`, `sort_index`, `rank`) (Roadmap #12)
+- `last_sent_date`: 2026-09-25
+- `last_topic`: Review day (combining Roadmap #9-12: boolean filtering, adding/dropping columns & rows, missing data, sorting & ranking)
 
 ## Log
 
@@ -35,6 +35,7 @@ Day 11 — 2026-09-21 — Boolean filtering on a DataFrame (combining conditions
 Day 12 — 2026-09-22 — Adding/dropping columns & rows (assign, drop, insert)
 Day 13 — 2026-09-23 — Handling missing data (isna, fillna, dropna)
 Day 14 — 2026-09-24 — Sorting & ranking (sort_values, sort_index, rank)
+Day 15 — 2026-09-25 — Review day (combining Roadmap #9-12: boolean filtering, add/drop columns & rows, missing data, sorting & ranking)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
