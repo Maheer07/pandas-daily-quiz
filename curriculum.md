@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 18
-- `last_topic_index`: 14
-- `last_sent_date`: 2026-09-30
-- `last_topic`: Merge/join/concat — differences and when to use each
+- `day_number`: 19
+- `last_topic_index`: 15
+- `last_sent_date`: 2026-10-01
+- `last_topic`: `apply` / `map` / `applymap` and why to avoid them when a vectorized op exists
 
 ## Log
 
@@ -39,6 +39,7 @@ Day 15 — 2026-09-25 — Review day (combining Roadmap #9-12: boolean filtering
 Day 16 — 2026-09-28 — GroupBy basics (groupby().agg()/sum()/mean())
 Day 17 — 2026-09-29 — GroupBy with multiple keys & multiple aggregations
 Day 18 — 2026-09-30 — Merge/join/concat — differences and when to use each
+Day 19 — 2026-10-01 — apply / map / applymap and why to avoid them when a vectorized op exists
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
