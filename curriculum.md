@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 21
-- `last_topic_index`: 16
-- `last_sent_date`: 2026-10-05
-- `last_topic`: String methods via `.str` accessor (Roadmap #17)
+- `day_number`: 22
+- `last_topic_index`: 17
+- `last_sent_date`: 2026-10-06
+- `last_topic`: Datetime handling (Roadmap #18)
 
 ## Log
 
@@ -42,6 +42,7 @@ Day 18 — 2026-09-30 — Merge/join/concat — differences and when to use each
 Day 19 — 2026-10-01 — apply / map / applymap and why to avoid them when a vectorized op exists
 Day 20 — 2026-10-02 — Review day (combining Roadmap #13-16: GroupBy basics, GroupBy multiple keys & aggregations, merge/join/concat, apply/map/applymap)
 Day 21 — 2026-10-05 — String methods via .str accessor
+Day 22 — 2026-10-06 — Datetime handling (pd.to_datetime, .dt accessor, resampling)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
