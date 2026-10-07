@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 22
-- `last_topic_index`: 17
-- `last_sent_date`: 2026-10-06
-- `last_topic`: Datetime handling (Roadmap #18)
+- `day_number`: 23
+- `last_topic_index`: 18
+- `last_sent_date`: 2026-10-07
+- `last_topic`: Pivot tables & pd.crosstab (Roadmap #19)
 
 ## Log
 
@@ -43,6 +43,7 @@ Day 19 — 2026-10-01 — apply / map / applymap and why to avoid them when a ve
 Day 20 — 2026-10-02 — Review day (combining Roadmap #13-16: GroupBy basics, GroupBy multiple keys & aggregations, merge/join/concat, apply/map/applymap)
 Day 21 — 2026-10-05 — String methods via .str accessor
 Day 22 — 2026-10-06 — Datetime handling (pd.to_datetime, .dt accessor, resampling)
+Day 23 — 2026-10-07 — Pivot tables & pd.crosstab
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
