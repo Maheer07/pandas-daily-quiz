@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 24
+- `day_number`: 25
 - `last_topic_index`: 19
-- `last_sent_date`: 2026-10-08
-- `last_topic`: Reshaping: melt, pivot, stack/unstack (Roadmap #20)
+- `last_sent_date`: 2026-10-09
+- `last_topic`: Review day (Roadmap #17-20: string methods, datetime handling, pivot tables/crosstab, reshaping)
 
 ## Log
 
@@ -45,6 +45,7 @@ Day 21 — 2026-10-05 — String methods via .str accessor
 Day 22 — 2026-10-06 — Datetime handling (pd.to_datetime, .dt accessor, resampling)
 Day 23 — 2026-10-07 — Pivot tables & pd.crosstab
 Day 24 — 2026-10-08 — Reshaping: melt, pivot, stack/unstack
+Day 25 — 2026-10-09 — Review day (combining Roadmap #17-20: string methods via .str, datetime handling, pivot tables/crosstab, reshaping melt/pivot/stack/unstack)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
