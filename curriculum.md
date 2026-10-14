@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 27
-- `last_topic_index`: 21
-- `last_sent_date`: 2026-10-13
-- `last_topic`: Window functions (rolling, expanding, .shift(), .diff())
+- `day_number`: 28
+- `last_topic_index`: 22
+- `last_sent_date`: 2026-10-14
+- `last_topic`: Categorical dtype & memory/perf implications
 
 ## Log
 
@@ -48,6 +48,7 @@ Day 24 — 2026-10-08 — Reshaping: melt, pivot, stack/unstack
 Day 25 — 2026-10-09 — Review day (combining Roadmap #17-20: string methods via .str, datetime handling, pivot tables/crosstab, reshaping melt/pivot/stack/unstack)
 Day 26 — 2026-10-12 — MultiIndex basics
 Day 27 — 2026-10-13 — Window functions: rolling, expanding, .shift(), .diff()
+Day 28 — 2026-10-14 — Categorical dtype & memory/perf implications
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
