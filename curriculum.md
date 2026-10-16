@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 29
+- `day_number`: 30
 - `last_topic_index`: 23
-- `last_sent_date`: 2026-10-15
-- `last_topic`: Combining NumPy + pandas (.to_numpy(), applying ufuncs to a DataFrame)
+- `last_sent_date`: 2026-10-16
+- `last_topic`: Review day (Roadmap #21-24: MultiIndex basics, window functions, categorical dtype, combining NumPy + pandas)
 
 ## Log
 
@@ -50,6 +50,7 @@ Day 26 — 2026-10-12 — MultiIndex basics
 Day 27 — 2026-10-13 — Window functions: rolling, expanding, .shift(), .diff()
 Day 28 — 2026-10-14 — Categorical dtype & memory/perf implications
 Day 29 — 2026-10-15 — Combining NumPy + pandas (.to_numpy(), applying ufuncs to a DataFrame)
+Day 30 — 2026-10-16 — Review day (combining Roadmap #21-24: MultiIndex basics, window functions, categorical dtype, combining NumPy+pandas)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
