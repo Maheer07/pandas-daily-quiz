@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 32
-- `last_topic_index`: 25
-- `last_sent_date`: 2026-10-20
-- `last_topic`: Multi-step chained operations (filter → groupby → agg → sort in one chain)
+- `day_number`: 33
+- `last_topic_index`: 26
+- `last_sent_date`: 2026-10-21
+- `last_topic`: pivot_table with custom aggfunc and multiple value columns
 
 ## Log
 
@@ -53,6 +53,7 @@ Day 29 — 2026-10-15 — Combining NumPy + pandas (.to_numpy(), applying ufuncs
 Day 30 — 2026-10-16 — Review day (combining Roadmap #21-24: MultiIndex basics, window functions, categorical dtype, combining NumPy+pandas)
 Day 31 — 2026-10-19 — Performance: vectorization vs .apply() vs .iterrows() (why iterrows is a trap)
 Day 32 — 2026-10-20 — Multi-step chained operations (filter → groupby → agg → sort in one chain)
+Day 33 — 2026-10-21 — pivot_table with custom aggfunc and multiple value columns
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
