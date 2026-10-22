@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 33
-- `last_topic_index`: 26
-- `last_sent_date`: 2026-10-21
-- `last_topic`: pivot_table with custom aggfunc and multiple value columns
+- `day_number`: 34
+- `last_topic_index`: 27
+- `last_sent_date`: 2026-10-22
+- `last_topic`: Advanced boolean indexing with .isin(), ~, .query()
 
 ## Log
 
@@ -54,6 +54,7 @@ Day 30 — 2026-10-16 — Review day (combining Roadmap #21-24: MultiIndex basic
 Day 31 — 2026-10-19 — Performance: vectorization vs .apply() vs .iterrows() (why iterrows is a trap)
 Day 32 — 2026-10-20 — Multi-step chained operations (filter → groupby → agg → sort in one chain)
 Day 33 — 2026-10-21 — pivot_table with custom aggfunc and multiple value columns
+Day 34 — 2026-10-22 — Advanced boolean indexing with .isin(), ~, .query()
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
