@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 35
-- `last_topic_index`: 27
-- `last_sent_date`: 2026-10-23
-- `last_topic`: Review day (Roadmap #25-28)
+- `day_number`: 36
+- `last_topic_index`: 28
+- `last_sent_date`: 2026-10-26
+- `last_topic`: Merging with mismatched keys, indicator=True, validating merge cardinality (Roadmap #29)
 
 ## Log
 
@@ -56,6 +56,7 @@ Day 32 — 2026-10-20 — Multi-step chained operations (filter → groupby → 
 Day 33 — 2026-10-21 — pivot_table with custom aggfunc and multiple value columns
 Day 34 — 2026-10-22 — Advanced boolean indexing with .isin(), ~, .query()
 Day 35 — 2026-10-23 — Review day (combining Roadmap #25-28: performance vectorization vs apply/iterrows, multi-step chained operations, pivot_table custom aggfunc, advanced boolean indexing)
+Day 36 — 2026-10-26 — Merging with mismatched keys, indicator=True, validating merge cardinality
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
