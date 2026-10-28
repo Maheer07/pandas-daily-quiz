@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 37
-- `last_topic_index`: 29
-- `last_sent_date`: 2026-10-27
-- `last_topic`: groupby().transform() vs .agg() vs .apply() — when each is required (Roadmap #30)
+- `day_number`: 38
+- `last_topic_index`: 30
+- `last_sent_date`: 2026-10-28
+- `last_topic`: Handling duplicate data (duplicated, drop_duplicates, subset logic) (Roadmap #31)
 
 ## Log
 
@@ -58,6 +58,7 @@ Day 34 — 2026-10-22 — Advanced boolean indexing with .isin(), ~, .query()
 Day 35 — 2026-10-23 — Review day (combining Roadmap #25-28: performance vectorization vs apply/iterrows, multi-step chained operations, pivot_table custom aggfunc, advanced boolean indexing)
 Day 36 — 2026-10-26 — Merging with mismatched keys, indicator=True, validating merge cardinality
 Day 37 — 2026-10-27 — groupby().transform() vs .agg() vs .apply() — when each is required
+Day 38 — 2026-10-28 — Handling duplicate data (duplicated, drop_duplicates, subset logic)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
