@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 38
-- `last_topic_index`: 30
-- `last_sent_date`: 2026-10-28
-- `last_topic`: Handling duplicate data (duplicated, drop_duplicates, subset logic) (Roadmap #31)
+- `day_number`: 39
+- `last_topic_index`: 31
+- `last_sent_date`: 2026-10-29
+- `last_topic`: Memory/dtype optimization (downcast, category, astype) (Roadmap #32)
 
 ## Log
 
@@ -59,6 +59,7 @@ Day 35 — 2026-10-23 — Review day (combining Roadmap #25-28: performance vect
 Day 36 — 2026-10-26 — Merging with mismatched keys, indicator=True, validating merge cardinality
 Day 37 — 2026-10-27 — groupby().transform() vs .agg() vs .apply() — when each is required
 Day 38 — 2026-10-28 — Handling duplicate data (duplicated, drop_duplicates, subset logic)
+Day 39 — 2026-10-29 — Memory/dtype optimization (downcast, category, astype)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
