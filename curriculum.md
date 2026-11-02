@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 40
-- `last_topic_index`: 31
-- `last_sent_date`: 2026-10-30
-- `last_topic`: Review day (Roadmap #29-32: merge validate/indicator, transform vs agg vs apply, duplicate handling, memory/dtype optimization)
+- `day_number`: 41
+- `last_topic_index`: 33
+- `last_sent_date`: 2026-11-02
+- `last_topic`: NumPy broadcasting edge cases & shape mismatches
 
 ## Log
 
@@ -61,6 +61,7 @@ Day 37 — 2026-10-27 — groupby().transform() vs .agg() vs .apply() — when e
 Day 38 — 2026-10-28 — Handling duplicate data (duplicated, drop_duplicates, subset logic)
 Day 39 — 2026-10-29 — Memory/dtype optimization (downcast, category, astype)
 Day 40 — 2026-10-30 — Review day (combining Roadmap #29-32: merge mismatched keys/indicator/validate, groupby transform vs agg vs apply, duplicate handling, memory/dtype optimization)
+Day 41 — 2026-11-02 — NumPy broadcasting edge cases & shape mismatches (note: corrected `last_topic_index` pointer from 31 to 32 before advancing — Day 40's review covered through Roadmap #32, so today correctly starts at #33 rather than repeating #32)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
