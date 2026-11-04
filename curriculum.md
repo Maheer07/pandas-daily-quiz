@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 42
-- `last_topic_index`: 34
-- `last_sent_date`: 2026-11-03
-- `last_topic`: NumPy linear algebra basics (np.dot, @, np.linalg)
+- `day_number`: 43
+- `last_topic_index`: 35
+- `last_sent_date`: 2026-11-04
+- `last_topic`: Custom .agg() with named aggregations (pd.NamedAgg)
 
 ## Log
 
@@ -63,6 +63,7 @@ Day 39 — 2026-10-29 — Memory/dtype optimization (downcast, category, astype)
 Day 40 — 2026-10-30 — Review day (combining Roadmap #29-32: merge mismatched keys/indicator/validate, groupby transform vs agg vs apply, duplicate handling, memory/dtype optimization)
 Day 41 — 2026-11-02 — NumPy broadcasting edge cases & shape mismatches (note: corrected `last_topic_index` pointer from 31 to 32 before advancing — Day 40's review covered through Roadmap #32, so today correctly starts at #33 rather than repeating #32)
 Day 42 — 2026-11-03 — NumPy linear algebra basics (np.dot, @, np.linalg)
+Day 43 — 2026-11-04 — Custom .agg() with named aggregations (pd.NamedAgg)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
