@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 44
+- `day_number`: 45
 - `last_topic_index`: 36
-- `last_sent_date`: 2026-11-05
-- `last_topic`: Time series resampling + rolling combined
+- `last_sent_date`: 2026-11-06
+- `last_topic`: Review day (Roadmap #33-36)
 
 ## Log
 
@@ -65,6 +65,7 @@ Day 41 — 2026-11-02 — NumPy broadcasting edge cases & shape mismatches (note
 Day 42 — 2026-11-03 — NumPy linear algebra basics (np.dot, @, np.linalg)
 Day 43 — 2026-11-04 — Custom .agg() with named aggregations (pd.NamedAgg)
 Day 44 — 2026-11-05 — Time series resampling + rolling combined
+Day 45 — 2026-11-06 — Review day (combining Roadmap #33-36: NumPy broadcasting edge cases & shape mismatches, NumPy linear algebra basics, custom .agg() named aggregations, time series resampling + rolling combined)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
