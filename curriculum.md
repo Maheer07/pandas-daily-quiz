@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 46
-- `last_topic_index`: 37
-- `last_sent_date`: 2026-11-09
-- `last_topic`: Working with JSON/nested structures via json_normalize
+- `day_number`: 47
+- `last_topic_index`: 38
+- `last_sent_date`: 2026-11-10
+- `last_topic`: Method chaining style vs step-by-step (readability/perf tradeoffs)
 
 ## Log
 
@@ -67,6 +67,7 @@ Day 43 — 2026-11-04 — Custom .agg() with named aggregations (pd.NamedAgg)
 Day 44 — 2026-11-05 — Time series resampling + rolling combined
 Day 45 — 2026-11-06 — Review day (combining Roadmap #33-36: NumPy broadcasting edge cases & shape mismatches, NumPy linear algebra basics, custom .agg() named aggregations, time series resampling + rolling combined)
 Day 46 — 2026-11-09 — Working with JSON/nested structures via json_normalize (Roadmap #37)
+Day 47 — 2026-11-10 — Method chaining style vs step-by-step (readability/perf tradeoffs) (Roadmap #38)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
