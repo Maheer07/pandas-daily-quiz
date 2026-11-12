@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 48
-- `last_topic_index`: 39
-- `last_sent_date`: 2026-11-11
-- `last_topic`: Common gotchas — SettingWithCopyWarning / ChainedAssignmentError, views vs copies
+- `day_number`: 49
+- `last_topic_index`: 40
+- `last_sent_date`: 2026-11-12
+- `last_topic`: Mixed review / "debug this snippet" questions drawing on the whole roadmap
 
 ## Log
 
@@ -69,6 +69,7 @@ Day 45 — 2026-11-06 — Review day (combining Roadmap #33-36: NumPy broadcasti
 Day 46 — 2026-11-09 — Working with JSON/nested structures via json_normalize (Roadmap #37)
 Day 47 — 2026-11-10 — Method chaining style vs step-by-step (readability/perf tradeoffs) (Roadmap #38)
 Day 48 — 2026-11-11 — Common gotchas: SettingWithCopyWarning/ChainedAssignmentError, views vs copies (Roadmap #39, verified live against installed pandas 3.0.5 Copy-on-Write behavior)
+Day 49 — 2026-11-12 — Mixed review: merge/validate/isin, groupby agg vs transform index-alignment bug, str+datetime pivot, broadcasting shape mismatch, duplicates vs chained-assignment contrast (Roadmap #40 — completes Cycle 2; next run should plan Cycle 3 per the note below, all questions "spot the bug"/"predict output" style, verified live against installed pandas 3.0.5 / numpy 2.5.3)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
