@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 49
+- `day_number`: 50
 - `last_topic_index`: 40
-- `last_sent_date`: 2026-11-12
-- `last_topic`: Mixed review / "debug this snippet" questions drawing on the whole roadmap
+- `last_sent_date`: 2026-11-13
+- `last_topic`: Review day (Roadmap #37-40) — closes Cycle 2; Cycle 3 roadmap (topics 41-80, spot-the-bug/predict-output style) now planned below
 
 ## Log
 
@@ -70,6 +70,7 @@ Day 46 — 2026-11-09 — Working with JSON/nested structures via json_normalize
 Day 47 — 2026-11-10 — Method chaining style vs step-by-step (readability/perf tradeoffs) (Roadmap #38)
 Day 48 — 2026-11-11 — Common gotchas: SettingWithCopyWarning/ChainedAssignmentError, views vs copies (Roadmap #39, verified live against installed pandas 3.0.5 Copy-on-Write behavior)
 Day 49 — 2026-11-12 — Mixed review: merge/validate/isin, groupby agg vs transform index-alignment bug, str+datetime pivot, broadcasting shape mismatch, duplicates vs chained-assignment contrast (Roadmap #40 — completes Cycle 2; next run should plan Cycle 3 per the note below, all questions "spot the bug"/"predict output" style, verified live against installed pandas 3.0.5 / numpy 2.5.3)
+Day 50 — 2026-11-13 — Review day (combining Roadmap #37-40: json_normalize record_path/meta, method chaining broken by inplace=True, fancy-vs-basic .iloc views/copies under Copy-on-Write, merge validate many_to_one vs one_to_one) — completes Cycle 2; Cycle 3 roadmap (topics 41-80, same 40 concepts but "spot the bug"/"predict exact output" style only) added below, verified live against installed pandas 3.0.5 / numpy 2.5.3
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
@@ -117,4 +118,49 @@ Day 49 — 2026-11-12 — Mixed review: merge/validate/isin, groupby agg vs tran
 39. Common gotchas: `SettingWithCopyWarning`, views vs copies
 40. Mixed review / "debug this snippet" style questions drawing on anything above
 
-After topic 40, start a **Cycle 3** by repeating the roadmap but every question must be a "spot the bug" or "predict the exact output" style rather than "which command does X" — write new topics/entries here as that cycle is planned, don't just silently reuse Cycle 1/2 questions verbatim.
+## Roadmap — Cycle 3: same 40 concepts, harder style only (topics 41-80 map 1:1 onto Cycle 1 + Cycle 2's topics 1-40 above)
+
+**Style rule for all of Cycle 3:** every question is "spot the bug in this snippet" or "predict the exact output of this code" — never "which command does X" or a bare definitional question. Reuse the same concepts with gnarlier, more realistic code (interactions between methods, real edge cases) rather than new topics, and never reuse a Cycle 1/2 question's exact scenario verbatim.
+
+41. NumPy array creation & dtypes (revisits Topic 1)
+42. NumPy indexing & slicing (revisits Topic 2)
+43. NumPy vectorized ops & broadcasting (revisits Topic 3)
+44. NumPy aggregations (revisits Topic 4)
+45. NumPy boolean masking & `np.where` (revisits Topic 5)
+46. Pandas Series: creation, index, basic ops (revisits Topic 6)
+47. Pandas DataFrame creation from dict/list/np.array (revisits Topic 7)
+48. Selection with `.loc` vs `.iloc` (revisits Topic 8)
+49. Boolean filtering on a DataFrame (revisits Topic 9)
+50. Adding/dropping columns & rows (revisits Topic 10)
+51. Handling missing data (revisits Topic 11)
+52. Sorting & ranking (revisits Topic 12)
+53. GroupBy basics (revisits Topic 13)
+54. GroupBy multiple keys & aggregations (revisits Topic 14)
+55. Merge/join/concat (revisits Topic 15)
+56. `apply`/`map`/`applymap` (revisits Topic 16)
+57. String methods via `.str` (revisits Topic 17)
+58. Datetime handling (revisits Topic 18)
+59. Pivot tables & `pd.crosstab` (revisits Topic 19)
+60. Reshaping: `melt`/`pivot`/`stack`/`unstack` (revisits Topic 20)
+61. MultiIndex basics (revisits Topic 21)
+62. Window functions (revisits Topic 22)
+63. Categorical dtype (revisits Topic 23)
+64. Combining NumPy + pandas (revisits Topic 24)
+65. Performance: vectorization vs `.apply()` vs `.iterrows()` (revisits Topic 25)
+66. Multi-step chained operations (revisits Topic 26)
+67. `pivot_table` with custom `aggfunc` (revisits Topic 27)
+68. Advanced boolean indexing `.isin()`/`~`/`.query()` (revisits Topic 28)
+69. Merge mismatched keys/`indicator=True`/`validate=` (revisits Topic 29)
+70. `groupby().transform()` vs `.agg()` vs `.apply()` (revisits Topic 30)
+71. Duplicate data handling (revisits Topic 31)
+72. Memory/dtype optimization (revisits Topic 32)
+73. NumPy broadcasting edge cases (revisits Topic 33)
+74. NumPy linear algebra basics (revisits Topic 34)
+75. Named aggregations `pd.NamedAgg` (revisits Topic 35)
+76. Time series resampling + rolling (revisits Topic 36)
+77. JSON/nested structures via `json_normalize` (revisits Topic 37)
+78. Method chaining style vs step-by-step (revisits Topic 38)
+79. Common gotchas: views vs copies (revisits Topic 39)
+80. Mixed review drawing on anything above, "spot the bug" style (revisits Topic 40)
+
+After topic 80, start a **Cycle 4** — write new topics/entries here as that cycle is planned, don't just silently reuse Cycle 1/2/3 questions verbatim.
