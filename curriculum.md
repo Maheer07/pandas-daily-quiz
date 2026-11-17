@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 51
-- `last_topic_index`: 41
-- `last_sent_date`: 2026-11-16
-- `last_topic`: Cycle 3 begins — NumPy array creation & dtypes, harder style (Roadmap #41, revisits #1)
+- `day_number`: 52
+- `last_topic_index`: 42
+- `last_sent_date`: 2026-11-17
+- `last_topic`: Cycle 3 — NumPy indexing & slicing, harder style (Roadmap #42, revisits #2)
 
 ## Log
 
@@ -72,6 +72,7 @@ Day 48 — 2026-11-11 — Common gotchas: SettingWithCopyWarning/ChainedAssignme
 Day 49 — 2026-11-12 — Mixed review: merge/validate/isin, groupby agg vs transform index-alignment bug, str+datetime pivot, broadcasting shape mismatch, duplicates vs chained-assignment contrast (Roadmap #40 — completes Cycle 2; next run should plan Cycle 3 per the note below, all questions "spot the bug"/"predict output" style, verified live against installed pandas 3.0.5 / numpy 2.5.3)
 Day 50 — 2026-11-13 — Review day (combining Roadmap #37-40: json_normalize record_path/meta, method chaining broken by inplace=True, fancy-vs-basic .iloc views/copies under Copy-on-Write, merge validate many_to_one vs one_to_one) — completes Cycle 2; Cycle 3 roadmap (topics 41-80, same 40 concepts but "spot the bug"/"predict exact output" style only) added below, verified live against installed pandas 3.0.5 / numpy 2.5.3
 Day 51 — 2026-11-16 — Cycle 3 begins: NumPy array creation & dtypes, harder style (Roadmap #41, revisits #1 — int/bool/str dtype promotion, NumPy 1.24+ ragged-array ValueError, np.array vs np.asarray copy semantics, NumPy 2.x strict scalar-overflow OverflowError vs silent array-arithmetic wraparound, .view() byte reinterpretation vs .astype() value conversion; verified live against installed pandas 3.0.5 / numpy 2.5.3)
+Day 52 — 2026-11-17 — NumPy indexing & slicing, harder style (Roadmap #42, revisits #2 — negative/step slicing order-of-operations, basic-indexing views vs pandas CoW independence, basic-slice views vs fancy-indexing copies head-to-head, in-place boolean-mask assignment vs copy-on-read, multi-axis negative-step reversal on a 2-D grid; verified live against installed pandas 3.0.5 / numpy 2.5.3)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
