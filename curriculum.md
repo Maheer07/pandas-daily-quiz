@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 54
+- `day_number`: 55
 - `last_topic_index`: 44
-- `last_sent_date`: 2026-11-19
-- `last_topic`: Cycle 3 — NumPy aggregations, harder style (Roadmap #44, revisits #4)
+- `last_sent_date`: 2026-11-20
+- `last_topic`: Cycle 3 — Review day (Roadmap #41-44: array creation/dtypes, indexing/slicing, broadcasting, aggregations)
 
 ## Log
 
@@ -75,6 +75,7 @@ Day 51 — 2026-11-16 — Cycle 3 begins: NumPy array creation & dtypes, harder 
 Day 52 — 2026-11-17 — NumPy indexing & slicing, harder style (Roadmap #42, revisits #2 — negative/step slicing order-of-operations, basic-indexing views vs pandas CoW independence, basic-slice views vs fancy-indexing copies head-to-head, in-place boolean-mask assignment vs copy-on-read, multi-axis negative-step reversal on a 2-D grid; verified live against installed pandas 3.0.5 / numpy 2.5.3)
 Day 53 — 2026-11-18 — NumPy vectorized ops & broadcasting, harder style (Roadmap #43, revisits #3 — trailing-axis broadcasting rule vs row-wise shape mismatch, scalar broadcasting for mean-centering, column-vector × row-vector outer-sum broadcast, row-wise weight multiply vs mismatched-axis `ValueError`, dtype-promotion widening that avoids Day 51 Q4's `int8` wraparound; verified live against installed numpy 2.5.3)
 Day 54 — 2026-11-19 — NumPy aggregations, harder style (Roadmap #44, revisits #4 — axis=0 vs axis=1 sum on a 2-D grid, `.sum()` reduction dtype promotion that avoids Day 53 Q5's elementwise `int8` wraparound, `argmax` flat index vs per-axis index vs coordinate-tuple confusion, `keepdims=True` mean-centering vs the Day 53 Q1 broadcasting `ValueError`, `nan` propagation in `sum`/`mean` vs `nansum`/`nanmean`; verified live against installed numpy 2.4.6 / pandas 3.1.1)
+Day 55 — 2026-11-20 — Review day (combining Roadmap #41-44: `int8` OverflowError on an out-of-range basic-indexing view write followed by a valid one, fancy-vs-basic column indexing copy/view contrast, weighted-grid `argmax(axis=1)` vs `sum(axis=0)` crossed-axis trap, bool/int/`nan` dtype promotion with `sum` vs `nansum`, reversed-sliced view row sums vs `keepdims=True` column mean-centering; verified live against installed numpy 2.5.3 / pandas 3.0.5)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
