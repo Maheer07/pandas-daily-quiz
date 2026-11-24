@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 56
-- `last_topic_index`: 45
-- `last_sent_date`: 2026-11-23
-- `last_topic`: Cycle 3 — NumPy boolean masking & np.where, harder style (Roadmap #45, revisits #5)
+- `day_number`: 57
+- `last_topic_index`: 46
+- `last_sent_date`: 2026-11-24
+- `last_topic`: Cycle 3 — Pandas Series: creation, index, basic ops, harder style (Roadmap #46, revisits #6)
 
 ## Log
 
@@ -77,6 +77,7 @@ Day 53 — 2026-11-18 — NumPy vectorized ops & broadcasting, harder style (Roa
 Day 54 — 2026-11-19 — NumPy aggregations, harder style (Roadmap #44, revisits #4 — axis=0 vs axis=1 sum on a 2-D grid, `.sum()` reduction dtype promotion that avoids Day 53 Q5's elementwise `int8` wraparound, `argmax` flat index vs per-axis index vs coordinate-tuple confusion, `keepdims=True` mean-centering vs the Day 53 Q1 broadcasting `ValueError`, `nan` propagation in `sum`/`mean` vs `nansum`/`nanmean`; verified live against installed numpy 2.4.6 / pandas 3.1.1)
 Day 55 — 2026-11-20 — Review day (combining Roadmap #41-44: `int8` OverflowError on an out-of-range basic-indexing view write followed by a valid one, fancy-vs-basic column indexing copy/view contrast, weighted-grid `argmax(axis=1)` vs `sum(axis=0)` crossed-axis trap, bool/int/`nan` dtype promotion with `sum` vs `nansum`, reversed-sliced view row sums vs `keepdims=True` column mean-centering; verified live against installed numpy 2.5.3 / pandas 3.0.5)
 Day 56 — 2026-11-23 — NumPy boolean masking & `np.where`, harder style (Roadmap #45, revisits #5 — boolean-mask read-copy vs mask-assignment write-through, `np.where(condition, x, y)` argument-order trap, elementwise-mask flattening vs per-row-mask shape preservation, `&`/`<`/`>` operator-precedence `ValueError` without parentheses, `np.where` dtype promotion to `float64` when one branch is float; verified live against installed numpy 2.5.3 / pandas 3.0.5)
+Day 57 — 2026-11-24 — Pandas Series: creation, index, basic ops, harder style (Roadmap #46, revisits #6 — arithmetic alignment with a duplicate-labeled operand forcing a sorted result index, `np.where` on a Series stripping the index vs `Series.where`'s keep-on-True/replace-on-False convention, `Series.sum()`/`.mean()` default `skipna=True` vs raw-ndarray `nan` propagation after `.to_numpy()`, label-slice inclusive end vs positional-slice exclusive end under Copy-on-Write, boolean-Series-indexer label-set alignment raising `IndexingError` on a partial label mismatch; verified live against installed pandas 3.0.5 / numpy 2.5.3)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
