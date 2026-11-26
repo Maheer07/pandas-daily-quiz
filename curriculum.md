@@ -12,10 +12,10 @@ This file is the source of truth for "where we are" in the course. The daily age
 
 ## Progress
 
-- `day_number`: 58
-- `last_topic_index`: 47
-- `last_sent_date`: 2026-11-25
-- `last_topic`: Cycle 3 — Pandas DataFrame creation from dict/list/np.array, harder style (Roadmap #47, revisits #7)
+- `day_number`: 59
+- `last_topic_index`: 48
+- `last_sent_date`: 2026-11-26
+- `last_topic`: Cycle 3 — Selection with `.loc` vs `.iloc`, harder style (Roadmap #48, revisits #8)
 
 ## Log
 
@@ -79,6 +79,7 @@ Day 55 — 2026-11-20 — Review day (combining Roadmap #41-44: `int8` OverflowE
 Day 56 — 2026-11-23 — NumPy boolean masking & `np.where`, harder style (Roadmap #45, revisits #5 — boolean-mask read-copy vs mask-assignment write-through, `np.where(condition, x, y)` argument-order trap, elementwise-mask flattening vs per-row-mask shape preservation, `&`/`<`/`>` operator-precedence `ValueError` without parentheses, `np.where` dtype promotion to `float64` when one branch is float; verified live against installed numpy 2.5.3 / pandas 3.0.5)
 Day 57 — 2026-11-24 — Pandas Series: creation, index, basic ops, harder style (Roadmap #46, revisits #6 — arithmetic alignment with a duplicate-labeled operand forcing a sorted result index, `np.where` on a Series stripping the index vs `Series.where`'s keep-on-True/replace-on-False convention, `Series.sum()`/`.mean()` default `skipna=True` vs raw-ndarray `nan` propagation after `.to_numpy()`, label-slice inclusive end vs positional-slice exclusive end under Copy-on-Write, boolean-Series-indexer label-set alignment raising `IndexingError` on a partial label mismatch; verified live against installed pandas 3.0.5 / numpy 2.5.3)
 Day 58 — 2026-11-25 — Pandas DataFrame creation from dict/list/np.array, harder style (Roadmap #47, revisits #7 — dict-of-lists equal-length `ValueError` vs list-of-lists row-padding with `NaN`, dict-of-Series construction rejecting a duplicate-labeled Series with `ValueError` vs plain Series `+` tolerating one (Day 57 Q1), `pd.DataFrame(ndarray)`'s default copy vs explicit `copy=False` memory-sharing, dict-of-Series alignment onto the sorted label union rather than any input's original order (Day 8 Q2), scalar broadcasting in a dict vs the list equal-length rule; verified live against installed pandas 3.0.5 / numpy 2.5.3)
+Day 59 — 2026-11-26 — Selection with `.loc` vs `.iloc`, harder style (Roadmap #48, revisits #8 — `.loc` row enlargement with `NaN`-fill/dtype upcast vs `.iloc`'s `IndexError` on an out-of-range position, `.iloc` negative-position indexing vs `.loc` treating a negative number as a literal (missing) label raising `KeyError`, combined row+column `.loc` slicing (label-inclusive) vs `.iloc` slicing (position-exclusive) on Day 58 Q4's sorted `table`, chained `df[mask]['col'] = val` silently failing under Copy-on-Write vs the combined `df.loc[mask, 'col'] = val` writing through, `df.loc[label]['col'] = val` recreating that same chained-assignment trap vs the combined `df.loc[label, 'col'] = val`; verified live against installed pandas 3.0.5 / numpy 2.5.3)
 
 ## Roadmap — Cycle 1 (fundamentals, one topic builds on the last)
 
